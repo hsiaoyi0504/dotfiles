@@ -7,3 +7,4 @@ my dot files
 ## MacOS
 * [Homebrew](http://brew.sh/)
 * [iTerm2](https://www.iterm2.com/)
+* [MacVim](http://apple.stackexchange.com/questions/59375/how-do-i-install-macvim)
