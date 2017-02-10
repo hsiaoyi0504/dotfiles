@@ -1,6 +1,3 @@
-set background=dark
-colorscheme solarized 
-
 set nu
 set ai
 set cursorline
@@ -14,3 +11,5 @@ hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 
 "for python files
 autocmd Filetype python setlocal expandtab
+autocmd Filetype html setlocal shiftwidth=2 tabstop=2
+
