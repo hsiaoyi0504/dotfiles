@@ -1,0 +1,12 @@
+[user]
+	name = Yi Hsiao
+	email = hsiaoyi0504@gmail.com
+[credential]
+	helper = cache --timeout=3600
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	pager = true
