@@ -4,6 +4,8 @@ my dot files
 ## Installation
 ``` shell
 git clone --recursive https://github.com/hsiaoyi0504/dotfiles.git
+cd dotfiles
+cp .gitconfig ~
 cp ./.vimrc ~
 cp -r ./.vim ~
 vim +PluginInstall +qall
