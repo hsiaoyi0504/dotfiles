@@ -96,39 +96,8 @@ export PATH=$PATH:/usr/local/sbin
 
 # alias rm='mv $@ /Users/hsiaoyi/.Trash'
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/"
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a $@'
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/hsiaoyi/.sdkman"
-[[ -s "/Users/hsiaoyi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/hsiaoyi/.sdkman/bin/sdkman-init.sh"
-
-# Go installation
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
-
-# For jubuild
-export PATH=$PATH:/Users/hsiaoyi/.local/bin
-
-# virtualenvwrapper
-#export WORKON_HOME=$HOME/.virtualenvs
-#export PROJECT_HOME=$HOME/Documents/workspace/
-#source /usr/local/bin/virtualenvwrapper.sh
-
-# Homebrew RDKit
-export RDBASE=/usr/local/share/RDKit
-
-# added by travis gem
-[ -f /Users/hsiaoyi/.travis/travis.sh ] && source /Users/hsiaoyi/.travis/travis.sh
-eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
+# alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a $@'
 
 # git extras
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
-# ruby
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/.rvm/bin"
-
-export PATH=$PATH:$HOME/edirect
-
-. /Users/hsiaoyi/miniconda3/etc/profile.d/conda.sh
