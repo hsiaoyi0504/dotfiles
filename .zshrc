@@ -99,5 +99,4 @@ export PATH=$PATH:/usr/local/sbin
 # alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a $@'
 
 # git extras
-source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
-
+source $(brew --prefix)/opt/git-extras/share/git-extras/git-extras-completion.zsh
